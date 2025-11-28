@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To-Do App</title>
+
+  <!-- Link to the main stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- Main container for the app -->
+  <div class="app-container">
+
+    <!-- App title -->
+    <h1 class="app-title">To-Do List</h1>
+
+    <!-- Input area: user types a task here -->
+    <div class="input-area">
+      <input 
+        type="text" 
+        id="taskInput" 
+        placeholder="Write a task..." 
+      />
+      <button id="addTaskBtn">Add</button>
+    </div>
+
+    <!-- Where the tasks will appear -->
+    <ul id="taskList" class="task-list"></ul>
+
+  </div>
+
+  <!-- Link to JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
