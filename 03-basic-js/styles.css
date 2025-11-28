@@ -1,0 +1,56 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos generales */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f3f4f6;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Contenedor principal */
+  .container {
+    background: #ffffff;
+    padding: 2rem;
+    width: 320px;
+    text-align: center;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+  }
+  
+  /* Valor del contador */
+  .value {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 1rem 0;
+  }
+  
+  /* Contenedor de botones */
+  .buttons {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+  }
+  
+  /* Botones */
+  button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background: #2563eb;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background: #1e40af;
+    transform: translateY(-2px);
+  }
